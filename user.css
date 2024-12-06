@@ -1,0 +1,36 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    font-family: "Rubik", serif;
+}
+.container {
+    background-color: blueviolet;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.user-container {
+    background: rgb(110, 20, 110);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.user-container p {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.user-container img {
+    margin: auto;
+    background-color: aqua;
+}
+.user-container.genc {
+    background-color: rgb(133, 133, 48);
+}
+.user-container.orta {
+    background-color: rgb(37, 126, 45);
+}
+.user-container.yasli {
+    background-color: rgb(165, 49, 49);
+}
